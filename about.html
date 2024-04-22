@@ -14,7 +14,7 @@
     <title>About RPI Crew</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #ED1C24
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #000000
     ;">
         <a class="navbar-brand" href="#"><img class="logo" src="Assets/oar_design.png"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,8 +23,8 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home </a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link hvr-grow" href="https://rpicrewalumni.org/">Alumni</a>
@@ -41,12 +41,17 @@
               <li class="nav-item">
                 <a class="nav-link hvr-grow" href="adks.html">ADKs</a>
               </li>
-            <li class="nav-item dropdown active">
+			  
+			  <li class="nav-item active">
+			  <a class="nav-link hvr-grow" href="about.html">About</a>
+			  </li>
+			  
+			  
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
-                
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
@@ -56,11 +61,9 @@
         
 
           </ul>
-          <a class="nav-link hvr-grow" href="#"><i class="fab fa-facebook fa-lg" style="color:#fff"></i></a>
-          <a class="nav-link hvr-grow" href="#"><i class="fab fa-instagram fa-lg" style="color:#fff"></i></a>
-          <a class="nav-link hvr-grow" href="#"><i class="fab fa-twitter fa-lg" style="color:#fff"></i></a>
-
-
+          <a class="nav-link hvr-grow" href="https://www.facebook.com/RPICrew"><i class="fab fa-facebook fa-lg" style="color:#fff"></i></a>
+          <a class="nav-link hvr-grow" href="https://www.instagram.com/rpicrew/"><i class="fab fa-instagram fa-lg" style="color:#fff"></i></a>
+       
         </div>
       </nav>
 
@@ -69,9 +72,13 @@
 
 
       <!---header-->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">RPI Crew</h1>
+     
+		<div class="jumbotron" style="background: url(oar_design.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+ 
+		
+		
+          <h1 class="display-4">About RPI Crew</h1>
+		
           <p class="lead">Welcome to the official website of the Rensselaer Crew Club! 
         </p>
         </div>
@@ -83,25 +90,58 @@
         <div class="card-deck">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">News</h5>
-              <p class="card-text">We're off the water! Keep posted for updates throughout the offseason!</p>
+              <h5 class="card-title">Who We Are</h5>
+              <p class="card-text">RPI Crew is a club rowing team through the Rensselaer Union. 
+                Team members are current members of the RPI community as well as students 
+                from Russell Sage College and Hudson Valley Community College. The rowers come from across all class years and levels of experience. If you've never rowed before, don't worry! We can teach you.</p>
               <a href="results" class="btn btn-primary">Fall Season Results</a>
             </div>
           </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Practices</h5>
-                <p class="card-text">Schedule TBD. To be determined! Meets at our erg room in the '87 Gym. Looking to join us? <a href="mailto:crew-membership@union.lists.rpi.edu">Contact</a> our membership officer to find practice schedules for each team. See you at practice!</p>
-              </div>
-        </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Facebook Updates</h5>
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRPICrew%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>              </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">What We Do</h5>
+              <p class="card-text">Though we are not NCAA/IRA level, 
+                we do maintain a strong commitment to practicing and competeing at a high level.
+                 Practices are conducted 5 days per week with regattas on weekends. On any given morning or afternoon, 
+                 you may find our shells cruising up and down the Hudson River. That is, unless the river is frozen over.
+                  When the river is frozen (and even when it's not), 
+                you will find team members in the erg room, racking up the extra meters.</p>
+              <a href="results" class="btn btn-primary">Fall Season Results</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Where We Row</h5>
+              <p class="card-text">You will find our boathouse in Hudson Shores Park in the city of Watervliet
+                 (just across the Hudson River from Troy). 
+                 We use the stretch of river from the Troy Locks 
+                 all of the way down to the I-90 bridge as you're starting to get into Albany.
+
+                Our erg room is located back on campus in '87 Gym. 
+                The room is primarily used during winter training from January - April but is often used throughout the year. 
+                We have 25+ ergs ready and waiting for action.</p>
+              <a href="results" class="btn btn-primary">Fall Season Results</a>
+            </div>
+          </div>
+
             </div>
         </div>
-      </div>
-    
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"> Our fleet</h5>
+            <p class="card-text">Our fleet is mostly comprised of Vespoli racing shells. We have 8 Vespoli eights, 1 Vespoli four and 1 Hudson four. Our equipment team works hard to keep these boat in as good of condition as possible. Any smaller boats (singles, etc.) 
+              rowing under our name belong to the team members that are rowing them and not to the club.
+            </p>
+            <a href="results" class="btn btn-primary">Fall Season Results</a>
+          </div>
+        </div>
+
+
+      </div> <!--container-->
+
+      
         <!--highlights-->
     <div class="row1">
         <div class="jumbotron" id="thanks">
@@ -116,20 +156,7 @@
         </div>
     </div>
     
-    <div class="row1">
-        <div class="jumbotron" id="rar">
-              <div class="text-block-left">
-              <h3>Rent a Rower!</h3>
-              <p>
-                Need some work done? We
-                can help you out- and you
-                can help us out! Learn about
-                our services.
-              </p>
-              <p><a href="rentarower.html" class="btn btn-primary btn-lg" role="button">Learn More</a></p>
-              </div>
-        </div>
-    </div>
+
 
     <div class="row1">
         <div class="jumbotron" id="donate">
