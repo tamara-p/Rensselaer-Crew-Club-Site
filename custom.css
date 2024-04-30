@@ -63,10 +63,11 @@ body,p,nav{
 .card{
     border-width: 1px;
     border-style: none;
-    border-color: rgb(198, 202, 211);
+    /*border-color: rgb(198, 202, 211);*/
+    border-color: #85a0dd;
     border-image: initial;
-    border-radius: 1px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.10);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px #85a0dd, 0 6px 6px rgba(0,0,0,0.10);
 }
 
 /* Grow */
@@ -98,3 +99,15 @@ th, td {
 table {
     border-spacing: 30px;
   }
+
+.lightbackground{
+	background-color: #f1f1f2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.greybackground {
+	background-color: #e6e7e8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
